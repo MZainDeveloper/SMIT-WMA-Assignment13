@@ -6,6 +6,7 @@ import {
   GraduationCap,
   Search,
 } from "lucide-react";
+import Footer from "./components/Footer";
 
 interface Student {
   id: string;
@@ -386,6 +387,7 @@ function App() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
